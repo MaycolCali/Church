@@ -44,7 +44,7 @@ body{
 
 /*-----INICIO HEADER Y HOME-----*/
 header{
-    height: 55px;
+    height: 68px;
     z-index: 999;
     position: fixed; /*al hacer scroll quede fijo*/
     top: 0;
@@ -476,8 +476,9 @@ footer{
 }
 .frase h2{
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     color: rgba(60,60,60);
+    text-align: center;
 }
 /*Animacion frase*/
 .frase h2::before{
@@ -502,7 +503,8 @@ footer{
 
 .frase h3{
     font-size: 14px;
-    color: rgba(60,60,60);
+    color: rgb(148, 146, 146);
+    margin-top: .21rem;
 }
 .copyright-container{
     width: 100%;
