@@ -260,7 +260,7 @@ header .navigation .navigation-items a:hover:before{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15em, auto));
     grid-gap: 1.5rem;
-    padding: 80px 14%; /*Verical - Horizontal*/
+    padding: 80px 10%; /*Verical - Horizontal*/
 }
 .container-inp .container-info .contenido{
     padding: 10px;
@@ -294,7 +294,7 @@ header .navigation .navigation-items a:hover:before{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15em, auto));
     grid-gap: 1.5rem;
-    padding: 80px 14%; /*Verical - Horizontal*/
+    padding: 80px 10%; /*Verical - Horizontal*/
 }
 .container-p .container-informacion .contenido{
     padding: 10px;
@@ -317,6 +317,39 @@ header .navigation .navigation-items a:hover:before{
     color: #5D6D7E;
     font-size: 1.2em;
     text-align: justify;
+}
+
+.container form{
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.contact form .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--bg-color);
+  border-radius: .8rem;
+  margin: .7rem 0;
+  box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+.contact form .input-box input{
+  width: 49%;
+}
+.contact form textarea {
+  resize: none;
+}
+.contact form .btn{
+  margin-top: 2rem;
+  cursor: pointer;
 }
 /*-----FIN MAIN------*/
 
